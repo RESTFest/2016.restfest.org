@@ -13,6 +13,5 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://restfest.org" # the base hostname & protocol for your site
 twitter_username: restfest
 github_username:  restfest
-
 # Build settings
 markdown: kramdown

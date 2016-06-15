@@ -1,4 +1,5 @@
-{% for p in site.pages | sort: "order" %}
+{% assign pages = site.pages | sort:"weight"  %}
+{% for p in pages %}
 {% unless p.hidden %}
 <a class="item {% if p.url == page.url %}active{% endif %}" href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
 {% endunless %}
