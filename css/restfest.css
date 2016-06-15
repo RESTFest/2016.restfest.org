@@ -1,10 +1,4 @@
 /** REST Fest Overrides **/
-body.pushable > .pusher {
-  background: white url("../images/skyline.jpg") no-repeat center -83px;
-}
-.ui.masthead.segment {
-  background: rgba(0,0,0,0.3);
-}
 .ui.masthead .ui.menu {
   border: none;
 }
@@ -36,3 +30,19 @@ div[typeof=Event] h1{
 div[typeof=Event] h3 {
   margin-top: 0;
 }
+
+.ui.primary.button {
+    margin: 1em;
+}
+
+.ui.masthead.masthead {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/images/skyline-uk.jpg');
+    background-size: cover;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ui.masthead.masthead--us {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/images/skyline-us.jpg');
+}
+

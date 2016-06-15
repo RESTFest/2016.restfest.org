@@ -37,7 +37,7 @@
       features: function() {
         /** app **/
         var map = L.map('map', {
-          center: [55.9483,-3.1969],
+          center: [$('#map').data('lat'), $('#map').data('lng')],
           zoom: 15,
           // interaction options
           scrollWheelZoom: false
