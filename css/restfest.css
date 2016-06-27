@@ -1,0 +1,48 @@
+/** REST Fest Overrides **/
+.ui.masthead .ui.menu {
+  border: none;
+}
+.ui.stripe.segment {
+  background: white;
+}
+
+.ui.primary.button {
+  background-color: #A5CB39;
+}
+.tito-wrapper {
+  margin: 0px;
+  height: 100%;
+  border: none;
+}
+.tito-wrapper form {
+  height: 90%;
+}
+.tito-tickets-button {
+  border: none;
+  background: none;
+}
+#map {
+  min-height: 200px;
+}
+div[typeof=Event] h1{
+  margin: 0;
+}
+div[typeof=Event] h3 {
+  margin-top: 0;
+}
+
+.ui.primary.button {
+    margin: 1em;
+}
+
+.ui.masthead.masthead {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/images/skyline-uk.jpg');
+    background-size: cover;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ui.masthead.masthead--us {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/images/skyline-us.jpg');
+}
+
