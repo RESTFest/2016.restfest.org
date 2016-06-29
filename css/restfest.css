@@ -4,6 +4,10 @@
 }
 .ui.stripe.segment {
   background: white;
+  padding: 2em 0;
+}
+.ui.stripe.quote.segment {
+  padding: 0;
 }
 
 .ui.primary.button {
