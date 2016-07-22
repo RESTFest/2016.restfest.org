@@ -59,7 +59,7 @@
       loadFeatures: function() {
         this.$http({
           method: 'GET',
-          url: '/location.geojson'
+          url: 'location.geojson'
         }).then(function(resp) {
           this.$set('features', resp.data)
         }).catch(console.log.bind(console));
