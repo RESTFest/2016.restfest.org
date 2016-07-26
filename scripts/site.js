@@ -22,6 +22,10 @@
       ;
 
       $('.tabular.menu .item').tab();
+
+      // embed videos
+      $('.ui.embed').embed();
+
     })
   ;
 
