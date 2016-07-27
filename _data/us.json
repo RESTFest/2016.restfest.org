@@ -1,3 +1,12 @@
 {
-  "title": "Greenville, SC, USA - September 15 - 17, 2016"
+  "title": "Greenville, SC, USA - September 15 - 17, 2016",
+  "sponsors": {
+    "rel_friend": [
+      {
+        "name": "Arktekk AS",
+        "image": "https://pbs.twimg.com/profile_images/560374943305584640/JoL9AN_N_bigger.png",
+        "url": "http://twitter.com/arktekk"
+      }
+    ]
+  }
 }

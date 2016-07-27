@@ -1,0 +1,10 @@
+<div class="ui relaxed horizontal list">
+  {% for sponsor in site.data[include.event].sponsors.rel_friend %}
+  <div class="item">
+    <img class="ui avatar image" src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
+    <div class="content">
+      <a class="header" rel="friend" href="{{ sponsor.url }}">{{ sponsor.name }}</a>
+    </div>
+  </div>
+  {% endfor %}
+</div>
