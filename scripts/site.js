@@ -56,7 +56,9 @@
             'Imagery &copy; <a href="http://mapbox.com">Mapbox</a>'
         }).addTo(map);
 
-        L.geoJson(this.features).addTo(map);
+        L.geoJson(this.features).addTo(map)
+          .bindPopup(this.features.properties.title)
+          .openPopup();
       }
     },
     methods: {

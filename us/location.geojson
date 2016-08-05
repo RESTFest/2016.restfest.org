@@ -4,13 +4,13 @@
     "marker-color": "#a5cb39",
     "marker-size": "medium",
     "marker-symbol": "",
-    "title": "REST Fest US"
+    "title": "REST Fest US @ 101 N Main St."
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      -82.39861965179443,
-      34.85167115928937
+      -82.39959061145781,
+      34.85193969456589
     ]
   }
 }
