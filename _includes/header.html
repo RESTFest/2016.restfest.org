@@ -1,7 +1,7 @@
 <!-- Following Menu -->
 <div class="ui large top fixed hidden menu">
   <div class="ui container">
-    {% include navigation-items.html %}
+    {% include navigation-items.html layout=page.layout %}
     <div class="right menu">
       <div class="item">
         <tito-button event="rest-fest/rest-fest-{{ page.layout }}-2016" class="ui primary button">Register</tito-button>
@@ -12,5 +12,5 @@
 
 <!-- Sidebar Menu -->
 <div class="ui vertical inverted sidebar menu">
-  {% include navigation-items.html %}
+  {% include navigation-items.html layout=page.layout %}
 </div>
