@@ -32,6 +32,16 @@
         "name": "ClojureBridge",
         "image": "https://pbs.twimg.com/profile_images/378800000740811214/1e002be34f464e306da31318e435405e_400x400.png",
         "url": "https://twitter.com/clojurebridge"
+      },
+      {
+        "name": "randallsquared",
+        "image": "https://pbs.twimg.com/profile_images/529765926166491137/ltwjhIkl_400x400.jpeg",
+        "url": "https://twitter.com/randallsquared"
+      },
+      {
+        "name": "APIvista",
+        "image": "https://pbs.twimg.com/profile_images/755232657634627584/2ofB660Z_400x400.jpg",
+        "url": "https://twitter.com/APIvista"
       }
     ]
   }
