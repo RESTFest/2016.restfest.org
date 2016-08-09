@@ -9,17 +9,7 @@ weight: 35
         <div class="ui segments">
             <div class="ui segment items">
                 <h2>HEAD (videography) Sponsor</h2>
-                <div class="ui item">
-                    <div class="image">
-                        <img src="/images/cainc.png" alt="CA, Inc.">
-                    </div>
-                    <div class="content">
-                        <div class="description">
-                            CA, Inc. has been the proud sponsor of the
-                            <a href="http://videos.restfest.org/">REST Fest Videos Project</a> since 2012. Their sponsorship has helped make nearly a half decades worth of REST Fest content available online!
-                        </div>
-                    </div>
-                </div>
+                {% include sponsorship-item.html event="us" level="HEAD" %}
             </div>
             <div class="ui segment items">
                 <h2 class="ui two column grid">
@@ -35,16 +25,17 @@ weight: 35
             </div>
             <div class="ui segment items">
                 <h2>PATCH (shirts!)</h2>
-                <div class="ui item">
-                    <div class="image">
-                        <img src="/images/mulesoft-logo.png" alt="MuleSoft">
-                    </div>
-                    <div class="content">
-                        <div class="description">
-                            MuleSoft makes it easy to connect the world's applications, data and devices. MuleSoft’s Anypoint Platform™ enables companies to unlock the full potential of their applications and data through API-led connectivity, both on-premises and in the cloud.
-                        </div>
-                    </div>
+                {% include sponsorship-item.html event="us" level="PATCH" %}
+            </div>
+            <div class="ui segment items">
+              <h2 class="ui two column grid">
+                <div class="column">POST</div>
+                <div class="right aligned column">
+                  <a class="ui large button" href="mailto:info@restfest.org">
+                      <i class="icon mail"></i> Email us for a Prospectus
+                  </a>
                 </div>
+              </h2>
             </div>
             <div class="ui segment items">
                 <h2 class="ui two column grid">
@@ -59,16 +50,6 @@ weight: 35
                 </div>
             </div>
             <div class="ui segment items">
-              <h2 class="ui two column grid">
-                <div class="column">POST</div>
-                <div class="right aligned column">
-                  <a class="ui large button" href="mailto:info@restfest.org">
-                      <i class="icon mail"></i> Email us for a Prospectus
-                  </a>
-                </div>
-              </h2>
-            </div>
-            <div class="ui segment items">
               <h2 class="ui two column grid" id="friends">
                 <div class="column">GET</div>
                 <div class="right aligned column">
@@ -76,6 +57,7 @@ weight: 35
                       <i class="icon mail"></i> Email us for a Prospectus
                   </a>
                 </div>
+                  {% include sponsor-avatars.html event="us" level="GET" %}
               </h2>
             </div>
             <div class="ui segment items">
@@ -87,7 +69,7 @@ weight: 35
               </h2>
               <div class="ui item">
                 <div class="content">
-                  {% include rel-friend.html event="us" %}
+                  {% include sponsor-avatars.html event="us" level="rel_friend" %}
                 </div>
               </div>
             </div>

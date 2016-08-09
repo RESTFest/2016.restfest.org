@@ -1,0 +1,16 @@
+{% for sponsor in site.data[include.event].sponsors[include.level] %}
+<div class="ui item">
+  <a class="image" target="_blank" href="{{ sponsor.url }}">
+    <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
+  </a>
+  {% if sponsor.description %}
+  <div class="content">
+    <div class="description">
+      {{ sponsor.description }}
+    </div>
+  </div>
+  {% elsif sponsor.name %}
+  <div class="content">{{ sponsor.name }}</div>
+  {% endif %}
+</div>
+{% endfor %}

@@ -2,6 +2,34 @@
   "title": "Greenville, SC, USA - September 15 - 17, 2016",
   "wiki": "https://github.com/RESTFest/2016-Greenville/wiki",
   "sponsors": {
+    "HEAD": [
+      {
+        "name": "CA, Inc.",
+        "image": "/images/cainc.png",
+        "description": "CA, Inc. has been the proud sponsor of the <a href=\"http://videos.restfest.org/\">REST Fest Videos Project</a> since 2012. Their sponsorship has helped make nearly a half decades worth of REST Fest content available online!",
+        "url": "http://ca.com/"
+      }
+    ],
+    "PATCH": [
+      {
+        "name": "MuleSoft",
+        "image": "/images/mulesoft-logo.png",
+        "description": "MuleSoft makes it easy to connect the world's applications, data and devices. MuleSoft’s Anypoint Platform™ enables companies to unlock the full potential of their applications and data through API-led connectivity, both on-premises and in the cloud.",
+        "url": "http://mulesoft.com/"
+      }
+    ],
+    "GET": [
+      {
+        "name": "OpenWorks",
+        "image": "https://pbs.twimg.com/profile_images/448553155010105344/KshjjmQY_400x400.jpeg",
+        "url": "http://joinopenworks.com/"
+      },
+      {
+        "name": "John Wiley & Sons, Inc.",
+        "image": "/images/wiley.png",
+        "url": "http://wiley.com/"
+      }
+    ],
     "rel_friend": [
       {
         "name": "Arktekk AS",
