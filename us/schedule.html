@@ -12,7 +12,7 @@ weight: 30
         <p>Everyone who comes speaks. Here's some of this year's fabulous speakers! <a href="https://ti.to/rest-fest/rest-fest-us-2016">Want your name on the list?</a> </p>
 
         <div class="ui horizontal selection list">
-          {% for speaker in site.data['speakers'] %}
+          {% for speaker in site.data.us.speakers %}
           <div class="item">
             <img class="ui avatar image" src="{{ speaker.profile_image_url }}" alt="{{ speaker.name }}">
             <div class="content">
