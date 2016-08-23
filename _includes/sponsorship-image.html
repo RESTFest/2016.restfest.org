@@ -1,0 +1,5 @@
+{% for sponsor in site.data[include.event].sponsors[include.level] %}
+  <a class="image" target="_blank" href="{{ sponsor.url }}">
+    <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
+  </a>
+{% endfor %}
