@@ -6,7 +6,7 @@
       {
         "name": "CA, Inc.",
         "image": "/images/cainc.png",
-        "description": "CA, Inc. has been the proud sponsor of the <a href=\"http://videos.restfest.org/\">REST Fest Videos Project</a> since 2012. Their sponsorship has helped make nearly a half decades worth of REST Fest content available online!",
+        "description": "<a href=\"http://ca.com/\" target=\"_blank\">CA, Inc.</a> has been the proud sponsor of the <a href=\"http://videos.restfest.org/\">REST Fest Videos Project</a> since 2012. Their sponsorship has helped make nearly a half decades worth of REST Fest content available online!",
         "url": "http://ca.com/"
       }
     ],
@@ -14,8 +14,20 @@
       {
         "name": "MuleSoft",
         "image": "/images/mulesoft-logo.png",
-        "description": "MuleSoft makes it easy to connect the world's applications, data and devices. MuleSoft’s Anypoint Platform™ enables companies to unlock the full potential of their applications and data through API-led connectivity, both on-premises and in the cloud.",
+        "description": "<a href=\"http://mulesoft.com/\" target=\"_blank\">MuleSoft</a> makes it easy to connect the world's applications, data and devices. MuleSoft’s Anypoint Platform™ enables companies to unlock the full potential of their applications and data through API-led connectivity, both on-premises and in the cloud.",
         "url": "http://mulesoft.com/"
+      }
+    ],
+    "POST": [
+      {
+        "name": "Capital One Dev Exchange",
+        "image": "/images/capital-one-dev-exchange.svg",
+        "url": "http://developer.capitalone.com/"
+      },
+      {
+        "name": "Servosity",
+        "image": "/images/servosity_logo.png",
+        "url": "http://servosity.com/"
       }
     ],
     "GET": [

@@ -56,3 +56,12 @@ div[typeof=Event] h3 {
 .ui.horizontal.list .item {
     margin-bottom: 1em;
 }
+
+.faded {
+  opacity: 0.5;
+}
+
+.ui.image.smedium img,
+.ui.images.smedium img {
+  width: 200px !important;
+}

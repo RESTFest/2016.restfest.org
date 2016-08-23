@@ -1,6 +1,6 @@
 {% for sponsor in site.data[include.event].sponsors[include.level] %}
 <div class="ui item">
-  <a class="image" target="_blank" href="{{ sponsor.url }}">
+  <a class="ui smedium image" target="_blank" href="{{ sponsor.url }}">
     <img src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
   </a>
   {% if sponsor.description %}

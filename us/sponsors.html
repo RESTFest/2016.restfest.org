@@ -8,11 +8,11 @@ weight: 35
         <h1>Sponsors</h1>
         <div class="ui segments">
             <div class="ui segment items">
-                <h2>HEAD (videography) Sponsor</h2>
+                <h2 class="faded">HEAD (videography) Sponsor</h2>
                 {% include sponsorship-item.html event="us" level="HEAD" %}
             </div>
             <div class="ui segment items">
-                <h2 class="ui two column grid">
+                <h2 class="ui two column grid faded">
                   <div class="column">OPTIONS</div>
                   <div class="right aligned column">
                     <a class="ui large button" href="mailto:info@restfest.org">
@@ -24,11 +24,11 @@ weight: 35
                 </div>
             </div>
             <div class="ui segment items">
-                <h2>PATCH (shirts!)</h2>
+                <h2 class="faded">PATCH (shirts!)</h2>
                 {% include sponsorship-item.html event="us" level="PATCH" %}
             </div>
             <div class="ui segment items">
-              <h2 class="ui two column grid">
+              <h2 class="ui two column grid faded">
                 <div class="column">POST</div>
                 <div class="right aligned column">
                   <a class="ui large button" href="mailto:info@restfest.org">
@@ -36,9 +36,12 @@ weight: 35
                   </a>
                 </div>
               </h2>
+              <div class="ui top aligned smedium images">
+                {% include sponsorship-image.html event="us" level="POST" %}
+              </div>
             </div>
             <div class="ui segment items">
-                <h2 class="ui two column grid">
+                <h2 class="ui two column grid faded">
                   <div class="column">PUT</div>
                   <div class="right aligned column">
                     <a class="ui large button" href="mailto:info@restfest.org">
@@ -50,19 +53,19 @@ weight: 35
                 </div>
             </div>
             <div class="ui segment items">
-              <h2 class="ui two column grid" id="friends">
+              <h2 class="ui two column grid faded" id="friends">
                 <div class="column">GET</div>
                 <div class="right aligned column">
                   <a class="ui large button" href="mailto:info@restfest.org">
                       <i class="icon mail"></i> Email us for a Prospectus
                   </a>
                 </div>
-                  {% include sponsor-avatars.html event="us" level="GET" %}
               </h2>
+              {% include sponsor-avatars.html event="us" level="GET" %}
             </div>
             <div class="ui segment items">
               <h2 class="ui two column grid">
-                <div class="column">rel="friend"</div>
+                <div class="column faded">rel="friend"</div>
                 <div class="right aligned column">
                   <tito-button event="rest-fest/rest-fest-us-2016" class="ui button">Add it with your registration!</tito-button>
                 </div>
