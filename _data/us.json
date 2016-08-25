@@ -40,6 +40,11 @@
         "name": "John Wiley & Sons, Inc.",
         "image": "/images/wiley.png",
         "url": "http://wiley.com/"
+      },
+      {
+        "name": "Foxy Cart",
+        "image": "https://pbs.twimg.com/profile_images/731204076113813505/716y-3_V_400x400.jpg",
+        "url": "https://twitter.com/foxy_io"
       }
     ],
     "rel_friend": [
@@ -97,11 +102,6 @@
         "name": "Ryan McAllen",
         "image": "https://pbs.twimg.com/profile_images/2219016198/me_400x400.jpg",
         "url": "https://twitter.com/rhynodesigns"
-      },
-      {
-        "name": "Foxy Cart",
-        "image": "https://pbs.twimg.com/profile_images/731204076113813505/716y-3_V_400x400.jpg",
-        "url": "https://twitter.com/foxy_io"
       }
     ]
   },
