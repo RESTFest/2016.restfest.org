@@ -28,6 +28,11 @@
         "name": "Servosity",
         "image": "/images/servosity_logo.png",
         "url": "http://servosity.com/"
+      },
+      {
+        "name": "TIBCO Mashery",
+        "image": "/images/tibco_mashery.png",
+        "url": "http://mashery.com/"
       }
     ],
     "GET": [
