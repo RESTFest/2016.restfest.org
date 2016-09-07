@@ -14,7 +14,7 @@ weight: 30
         <div class="ui horizontal selection list">
           {% for speaker in site.data.us.speakers %}
           <div class="item">
-            <img class="ui avatar image" src="{{ speaker.profile_image_url }}" alt="{{ speaker.name }}">
+            <img class="ui tiny avatar image" src="{{ speaker.profile_image_url }}" alt="{{ speaker.name }}">
             <div class="content">
               <div class="header">{{ speaker.name }}</div>
               <a href="https://twitter.com/{{ speaker.screen_name }}" target="_blank">{{ speaker.screen_name }}</a>
