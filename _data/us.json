@@ -50,6 +50,11 @@
         "name": "Foxy Cart",
         "image": "https://pbs.twimg.com/profile_images/731204076113813505/716y-3_V_400x400.jpg",
         "url": "https://twitter.com/foxy_io"
+      },
+      {
+        "name": "O'Reilly",
+        "image": "/images/oreilly.jpg",
+        "url": "http://www.oreilly.com"
       }
     ],
     "rel_friend": [
