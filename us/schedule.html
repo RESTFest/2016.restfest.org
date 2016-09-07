@@ -15,7 +15,9 @@ weight: 30
           {% assign speakers = site.data.us.speakers | reverse %}
           {% for speaker in speakers %}
           <div class="four wide center aligned column">
-            <img class="ui tiny avatar image" src="{{ speaker.profile_image_url }}" alt="{{ speaker.name }}">
+            <a href="https://twitter.com/{{ speaker.screen_name }}" target="_blank">
+              <img class="ui tiny avatar image" src="{{ speaker.profile_image_url }}" alt="{{ speaker.name }}" />
+            </a>
             <div class="content">
               <div class="header">{{ speaker.name }}</div>
               <a href="https://twitter.com/{{ speaker.screen_name }}" target="_blank">{{ speaker.screen_name }}</a>
