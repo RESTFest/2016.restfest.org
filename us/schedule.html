@@ -8,12 +8,13 @@ weight: 30
       <p>REST Fest is a unique blend of presentations and collaborative unconference goodness.
       The keynote sits directly in the middle of the conference schedule with hackday,
       workshop, session, talks, and 5-in-5 lightening talks surrounding it.</p>
-        <h1 id="speakers">Speakers</h1>
+      <h1 id="speakers">Speakers | <a href="#schedule">Schedule</a></h1>
         <p>Everyone who comes speaks. Here's some of this year's fabulous speakers! <a href="https://ti.to/rest-fest/rest-fest-us-2016">Want your name on the list?</a> </p>
 
-        <div class="ui horizontal selection list">
-          {% for speaker in site.data.us.speakers %}
-          <div class="item">
+        <div class="ui grid">
+          {% assign speakers = site.data.us.speakers | reverse %}
+          {% for speaker in speakers %}
+          <div class="four wide center aligned column">
             <img class="ui tiny avatar image" src="{{ speaker.profile_image_url }}" alt="{{ speaker.name }}">
             <div class="content">
               <div class="header">{{ speaker.name }}</div>
@@ -23,7 +24,7 @@ weight: 30
           {% endfor %}
         </div>
 
-        <h1 id="schedule">Schedule</h1>
+        <h1 id="schedule">Schedule | <a href="#speakers">Speakers</a></h1>
         <div class="ui top attached tabular menu">
             <a class="item active" data-tab="first">Thursday</a>
             <a class="item" data-tab="second">Friday</a>
