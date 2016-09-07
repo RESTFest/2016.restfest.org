@@ -122,6 +122,62 @@
   },
   "speakers": [
     {
+      "name": "Jerome Louvel",
+      "screen_name": "jlouvel",
+      "profile_image_url": "//pbs.twimg.com/profile_images/533708814269181953/AqTOGz7__400x400.png"
+    },
+    {
+      "name": "JOSHUA ABU",
+      "screen_name": "josh_ujah",
+      "profile_image_url": "//pbs.twimg.com/profile_images/732231632141336576/UA7LtdAQ_400x400.jpg"
+    },
+    {
+      "name": "Kirk Fort",
+      "screen_name": "mkfort",
+      "profile_image_url": "//pbs.twimg.com/profile_images/419260631473086465/rjFrWJzr_400x400.jpeg"
+    },
+    {
+      "name": "Todd Brackley",
+      "screen_name": "toddbNZ",
+      "profile_image_url": "//pbs.twimg.com/profile_images/643368722/Photo_1_400x400.jpg"
+    },
+    {
+      "name": "Rob Zazueta",
+      "screen_name": "rzazueta",
+      "profile_image_url": "//pbs.twimg.com/profile_images/1863334489/2011-10-24_Vertical_Response_0021_400x400.jpg"
+    },
+    {
+      "name": "Leonard Richardson",
+      "screen_name": "leonardr",
+      "profile_image_url": "//pbs.twimg.com/profile_images/378800000237277129/6742e1c9b7b34a95ddf8b86ce8cafbf0_400x400.jpeg"
+    },
+    {
+      "name": "Emily Wivell",
+      "screen_name": "emjwivell",
+      "profile_image_url": "//pbs.twimg.com/profile_images/726921085875281921/gTQZ7sLW.jpg"
+    },
+    {
+      "name": "Tomasz Pluskiewicz",
+      "screen_name": "tpluscode",
+      "profile_image_url": "//pbs.twimg.com/profile_images/684777938785558529/iw_oqgCU_400x400.jpg"
+    },
+    {
+      "name": "Pamela Wood Browne",
+      "screen_name": "fancybike",
+      "profile_image_url": "//pbs.twimg.com/profile_images/672157518953517056/lI4E01Hk_400x400.jpg"
+    },
+    {
+      "name": "Irakli Nadareishvili",
+      "screen_name": "inadarei",
+      "profile_image_url": "//pbs.twimg.com/profile_images/378800000710101155/3982fb3e78ddd2828580098adb591c2f_400x400.png"
+    },
+    {
+      "name": "Matthew Bishop",
+      "screen_name": "MattBishopL3",
+      "profile_image_url": "//pbs.twimg.com/profile_images/2908653135/e3bf9ece5f6a816f8f5abab7b61386f4_400x400.png"
+    },
+
+    {
       "name": "Luke Stokes",
       "screen_name": "lukestokes",
       "profile_image_url": "//pbs.twimg.com/profile_images/725911901113212932/8uli1rpP_normal.jpg"
