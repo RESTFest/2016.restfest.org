@@ -1,6 +1,8 @@
 <div class="ui relaxed horizontal selection list">
   {% for sponsor in site.data[include.event].sponsors[include.level] %}
-  <a class="item" href="{{ sponsor.url }}" target="_blank">
+  <a class="item"
+    {% if include.level == 'rel_friend' %}rel="friend"{% endif %}
+    href="{{ sponsor.url }}" target="_blank">
     {% if sponsor.image %}
     <img class="ui {% if include.level == 'GET' %}tiny{% else %}avatar{% endif %} image" src="{{ sponsor.image }}" alt="{{ sponsor.name }}">
     {% endif %}
