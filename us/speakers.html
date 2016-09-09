@@ -1,0 +1,28 @@
+---
+layout: us
+title: Speakers
+weight: 25
+---
+<div class="ui vertical stripe segment">
+  <div class="ui text container">
+
+    <h1 id="speakers">Speakers | <a href="schedule">Schedule</a></h1>
+
+    <p>Everyone who comes speaks. Here's some of this year's fabulous speakers! <a href="https://ti.to/rest-fest/rest-fest-us-2016">Want your name on the list?</a> </p>
+
+    <div class="ui grid">
+      {% assign speakers = site.data.us.speakers | reverse %}
+      {% for speaker in speakers %}
+      <div class="four wide center aligned column">
+        <a href="https://twitter.com/{{ speaker.screen_name }}" target="_blank">
+          <img class="ui tiny avatar image" src="{{ speaker.profile_image_url }}" alt="{{ speaker.name }}" />
+        </a>
+        <div class="content">
+          <div class="header">{{ speaker.name }}</div>
+          <a href="https://twitter.com/{{ speaker.screen_name }}" target="_blank">{{ speaker.screen_name }}</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
