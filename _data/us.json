@@ -33,6 +33,11 @@
         "name": "TIBCO Mashery",
         "image": "/images/tibco_mashery.png",
         "url": "http://mashery.com/"
+      },
+      {
+        "name": "APIs.json",
+        "image": "/images/apisdotjson.png",
+        "url": "http://apisjson.org/"
       }
     ],
     "GET": [
